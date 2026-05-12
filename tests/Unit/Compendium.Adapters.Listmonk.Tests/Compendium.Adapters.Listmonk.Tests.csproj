@@ -12,9 +12,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Core\Compendium.Core\Compendium.Core.csproj" />
-    <ProjectReference Include="..\..\..\src\Abstractions\Compendium.Abstractions.Email\Compendium.Abstractions.Email.csproj" />
-    <ProjectReference Include="..\..\..\src\Adapters\Compendium.Adapters.Listmonk\Compendium.Adapters.Listmonk.csproj" />
+    <ProjectReference Include="..\..\..\src\Compendium.Adapters.Listmonk\Compendium.Adapters.Listmonk.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Framework deps used directly by tests. -->
+    <PackageReference Include="Compendium.Core" />
+    <PackageReference Include="Compendium.Abstractions.Email" />
   </ItemGroup>
 
   <ItemGroup>

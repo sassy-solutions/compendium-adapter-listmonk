@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F73BEEA7-5D64-4C14-A0BE-8DFB8554C447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compendium.Adapters.Listmonk", "src\Compendium.Adapters.Listmonk\Compendium.Adapters.Listmonk.csproj", "{9821C774-35F2-4F22-BA4F-10BC33FC14AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{061994F0-9A9C-4638-8BF8-276B68217E8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{DEEE3A2E-233C-4C38-9017-38DE849ECFE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compendium.Adapters.Listmonk.Tests", "tests\Unit\Compendium.Adapters.Listmonk.Tests\Compendium.Adapters.Listmonk.Tests.csproj", "{8B427276-D40B-4AE1-B1C7-CFB9C660FBD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9821C774-35F2-4F22-BA4F-10BC33FC14AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9821C774-35F2-4F22-BA4F-10BC33FC14AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9821C774-35F2-4F22-BA4F-10BC33FC14AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9821C774-35F2-4F22-BA4F-10BC33FC14AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B427276-D40B-4AE1-B1C7-CFB9C660FBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B427276-D40B-4AE1-B1C7-CFB9C660FBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B427276-D40B-4AE1-B1C7-CFB9C660FBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B427276-D40B-4AE1-B1C7-CFB9C660FBD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9821C774-35F2-4F22-BA4F-10BC33FC14AE} = {F73BEEA7-5D64-4C14-A0BE-8DFB8554C447}
+		{DEEE3A2E-233C-4C38-9017-38DE849ECFE6} = {061994F0-9A9C-4638-8BF8-276B68217E8D}
+		{8B427276-D40B-4AE1-B1C7-CFB9C660FBD9} = {DEEE3A2E-233C-4C38-9017-38DE849ECFE6}
+	EndGlobalSection
+EndGlobal
